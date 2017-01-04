@@ -1,7 +1,7 @@
 Niconico comment opacifier
 ===
 
-**:sparkles:一個可以調整niconico評論透明度的chrome外掛:sparkles:**
+**:sparkles:一個專為調整niconico評論透明度而生的chrome外掛:sparkles:**
 
 因為niconico本身沒有自帶這個功能覺得很惱怒，(想看彈幕但又不想整個畫面都被遮蔽啊!!!)
 
