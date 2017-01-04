@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Niconico douga comment opacity plugin",
-  "description": "Opacify niconico douga's comment",
+  "description": "Opacify niconico douga's video comment",
   "version": "1.0",
 
   "browser_action": {
