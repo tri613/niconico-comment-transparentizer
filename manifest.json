@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Niconico comment opacity Plugin",
+  "description": "Opacify niconico's comment",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.nicovideo.jp/watch/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+   "activeTab"
+   ]
+}
