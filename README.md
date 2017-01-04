@@ -16,9 +16,16 @@ Niconico comment opacifier
 
 (說不定以後官方會自帶這個功能哈)
 
-## 安裝
+## Install
 噫！我上架拉！
 
 下載請到 [Chrome商店](https://chrome.google.com/webstore/detail/niconico-comment-opacity/lhmlelhjodacloolefifbnolbjnolhnl)！
 
 有什麼意見或問題都很歡迎！:smile:
+
+## Options
+這個外掛有包含options頁面，可以右鍵點icon或到[擴充功能頁面](chrome://extensions/) 選擇`選項`，
+
+即可設定預設的透明度值，
+
+以後只要觀看niconico影片就會自動將彈幕調整至預設透明度。
