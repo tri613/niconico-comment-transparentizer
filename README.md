@@ -24,7 +24,7 @@ Niconico comment opacifier
 有什麼意見或問題都很歡迎！:smile:
 
 ## Options
-這個外掛有包含options頁面，可以右鍵點icon或到[擴充功能頁面](chrome://extensions/) 選擇`選項`，
+這個外掛有包含options頁面，可以右鍵點icon開啟小目錄選擇`選項`，或到擴充功能頁面(chrome://extensions/) 找到這個外掛並選擇`選項`，
 
 即可設定預設的透明度值，
 
