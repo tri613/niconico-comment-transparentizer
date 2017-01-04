@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["http://www.nicovideo.jp/watch/*"],
-      "js": ["content.js"]
+      "js": ["./js/content.js"]
     }
   ],
   "options_page": "options.html",
