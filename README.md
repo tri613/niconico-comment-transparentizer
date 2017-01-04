@@ -10,6 +10,7 @@ Niconico comment opacifier
 也因為是練習，所以很陽春，標準很低，自己開可以用就好。XD
 
 ~~原本想順便上架(不然會被當成奇怪的app擋掉QQ)，但不知為啥我註冊不了所以就先暫時這樣。(爆炸)~~
+[已上架！](#安裝):sunglasses:
 
 :warning: 僅支援niconico新的【β 版】(HTML5版)。
 
