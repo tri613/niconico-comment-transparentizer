@@ -1,6 +1,7 @@
 (function() {
 	const opacityInput = document.querySelector('[name="default-opacity"]');
 	const currentOpacityHolder =  document.querySelector("#current-opacity");
+	const body = document.querySelector('body');
 	const form = document.querySelector('#options');
     const status = document.getElementById('status');
 
@@ -29,6 +30,7 @@
 	function showCurrentValue(e) {
 		const opacity = opacityInput.value / 100;
 	    currentOpacityHolder.textContent = opacity;
+	    body.style.backgroundColor = `rgba(86, 175, 145,${opacity})`;
 	}
 
 	form.addEventListener('submit', saveOptions);
