@@ -12,7 +12,7 @@ Niconico comment opacifier
 ~~原本想順便上架(不然會被當成奇怪的app擋掉QQ)，但不知為啥我註冊不了所以就先暫時這樣。(爆炸)~~
 [已上架！](https://chrome.google.com/webstore/detail/niconico-comment-opacity/lhmlelhjodacloolefifbnolbjnolhnl):sunglasses:
 
-:warning: 僅支援niconico新的【β 版】(HTML5版)。
+:warning: 僅支援niconico新的【β 版】播放器 (HTML5版)。
 
 (說不定以後官方會自帶這個功能哈)
 
