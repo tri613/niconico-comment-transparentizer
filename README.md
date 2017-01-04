@@ -12,3 +12,6 @@ Niconico comment opacifier
 原本想順便上架(不然會被當成奇怪的app擋掉QQ)，但不知為啥我註冊不了所以就先暫時這樣。
 
 P.S. 僅支援niconico新的【β 版】(HTML5版)。
+
+試玩走這下載 -> [Google Drive]( https://drive.google.com/file/d/0B9h1yPRFmuw7bFkwelI1bTZtcEk/view?usp=sharing)
+(不過大概只有第一次裝可以玩，瀏覽器重開後就會被擋掉XD)
