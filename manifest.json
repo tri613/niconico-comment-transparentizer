@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Niconico douga comment opacity plugin",
+  "name": "Niconico douga comment opacifier",
   "description": "Opacify niconico douga's video comment / ニコニコ動画のコメントを透明にします",
   "version": "1.1.1",
 
