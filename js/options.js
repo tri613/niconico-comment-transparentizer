@@ -3,7 +3,7 @@
 	const currentOpacityHolder =  document.querySelector("#current-opacity");
 	const body = document.querySelector('body');
 	const form = document.querySelector('#options');
-    const status = document.getElementById('status');
+	const status = document.getElementById('status');
 
 	function saveOptions(e) {
 		e.preventDefault();
