@@ -23,13 +23,17 @@
 		    defaultOpacity: 0.5,
 		}, function(items) {
 		    opacityInput.value = items.defaultOpacity*100;
-		    currentOpacityHolder.textContent = items.defaultOpacity;
+	   	 	demoOpacityValue(items.defaultOpacity);
 		});
 	}
 
 	function showCurrentValue(e) {
 		const opacity = opacityInput.value / 100;
-	    currentOpacityHolder.textContent = opacity;
+		demoOpacityValue(opacity);
+	}
+
+	function demoOpacityValue(opacity) {
+ 		currentOpacityHolder.textContent = opacity;
 	    body.style.backgroundColor = `rgba(86, 175, 145,${opacity})`;
 	}
 
