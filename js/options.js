@@ -23,22 +23,22 @@
 		    defaultOpacity: 0.5,
 		}, function(items) {
 		    opacityInput.value = items.defaultOpacity*100;
-	   	 	demoOpacityValue(items.defaultOpacity);
+	   	 	displayOpacityValue(items.defaultOpacity);
 		});
 	}
 
-	function showCurrentValue(e) {
+	function opacityChangeHandler(e) {
 		const opacity = opacityInput.value / 100;
-		demoOpacityValue(opacity);
+		displayOpacityValue(opacity);
 	}
 
-	function demoOpacityValue(opacity) {
+	function displayOpacityValue(opacity) {
  		currentOpacityHolder.textContent = opacity;
 	    body.style.backgroundColor = `rgba(86, 175, 145,${opacity})`;
 	}
 
 	form.addEventListener('submit', saveOptions);
-	opacityInput.addEventListener('mousemove', showCurrentValue);
-	opacityInput.addEventListener('change', showCurrentValue);
+	opacityInput.addEventListener('mousemove', opacityChangeHandler);
+	opacityInput.addEventListener('change', opacityChangeHandler);
 	restoreOptions();
 })();
