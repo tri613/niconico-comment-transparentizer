@@ -1,0 +1,14 @@
+{
+  "name": "niconico-comment-opacifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tri613/niconico-comment-opacifier.git",
+  "author": "Trina Lu <trina.lu@linecorp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "prettier": "prettier ./ -w"
+  }
+}
