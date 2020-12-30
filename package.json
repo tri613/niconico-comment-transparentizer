@@ -6,10 +6,12 @@
   "author": "Trina Lu <trina.lu@linecorp.com>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "standard-version": "^9.1.0"
   },
   "scripts": {
     "prettier": "prettier ./src -w",
-    "zip": "node ./pack.js"
+    "zip": "node ./pack.js",
+    "release": "standard-version"
   }
 }
