@@ -1,4 +1,8 @@
-const { exec } = require('child_process');
+const { execSync, exec } = require('child_process');
 const package = require('./package.json');
 
-exec(`zip ${package.name}-${package.version}.zip ./src/*`);
+const name = `${package.name}-${package.version}`;
+
+execSync(`cp -r ./src ./${name}`);
+execSync(`zip ./${name}.zip ./${name}/*`);
+exec(`rm -rf ./${name}`);
