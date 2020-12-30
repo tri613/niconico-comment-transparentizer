@@ -9,6 +9,6 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "prettier": "prettier ./ -w"
+    "prettier": "prettier ./src -w"
   }
 }
