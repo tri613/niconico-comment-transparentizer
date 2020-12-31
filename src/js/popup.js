@@ -1,14 +1,15 @@
 (function () {
+  let debounceSaveTimer;
+
   document.addEventListener('DOMContentLoaded', (e) => {
     const input = document.querySelector('[name="opacity"]');
     const currentOpacity = document.querySelector('#current-opacity');
 
-    input.addEventListener('change', changeOpacity);
-    input.addEventListener('mousemove', changeOpacity);
+    input.addEventListener('input', changeOpacity);
     restoreOptions();
 
     function changeOpacity(e) {
-      const opacity = this.value / 100;
+      const opacity = e.target.value / 100;
       showCurrentOpacity(opacity);
       sendToActiveTab(opacity);
       saveOptions(opacity);
@@ -27,9 +28,15 @@
     }
 
     function saveOptions(opacity) {
-      chrome.storage.sync.set({
-        defaultOpacity: opacity,
-      });
+      if (debounceSaveTimer) {
+        clearTimeout(debounceSaveTimer);
+      }
+
+      debounceSaveTimer = setTimeout(() => {
+        chrome.storage.sync.set({
+          defaultOpacity: opacity,
+        });
+      }, 800);
     }
 
     function setInputValue(opacity) {
