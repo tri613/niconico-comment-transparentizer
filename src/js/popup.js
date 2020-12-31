@@ -11,7 +11,7 @@
     function changeOpacity(e) {
       const opacity = e.target.value / 100;
       showCurrentOpacity(opacity);
-      sendToActiveTab(opacity);
+      sendToTabs(opacity);
       saveOptions(opacity);
     }
 
@@ -47,21 +47,16 @@
       currentOpacity.innerText = opacity;
     }
 
-    function sendToActiveTab(opacity) {
-      const callback = function (tabs) {
-        chrome.tabs.sendMessage(tabs[0].id, {
-          from: 'popup',
-          action: 'changeOpacity',
-          opacity: opacity,
+    function sendToTabs(opacity) {
+      chrome.tabs.query({}, (tabs) => {
+        tabs.forEach((tab) => {
+          chrome.tabs.sendMessage(tab.id, {
+            from: 'popup',
+            action: 'changeOpacity',
+            opacity: opacity,
+          });
         });
-      };
-      getActiveTab(callback);
-    }
-
-    function getActiveTab(callback) {
-      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) =>
-        callback(tabs)
-      );
+      });
     }
   });
 })();
