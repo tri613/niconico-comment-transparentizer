@@ -3,16 +3,22 @@
   "name": "Niconico comment transparentizer",
   "short_name": "niconico-transparentizer",
   "description": "Make niconico douga comments transparent 👻",
-  "version": "1.1.4",
+  "version": "2.0.0",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "matches": ["https://www.nicovideo.jp/watch/*"],
-      "js": ["./js/content.js"]
+      "matches": [
+        "https://www.nicovideo.jp/watch/*"
+      ],
+      "js": [
+        "./js/content.js"
+      ]
     }
   ],
-  "permissions": ["storage"]
+  "permissions": [
+    "storage"
+  ]
 }
