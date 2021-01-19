@@ -10,15 +10,9 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://www.nicovideo.jp/watch/*"
-      ],
-      "js": [
-        "./js/content.js"
-      ]
+      "matches": ["https://www.nicovideo.jp/watch/*"],
+      "js": ["js/content.js"]
     }
   ],
-  "permissions": [
-    "storage"
-  ]
+  "permissions": ["storage"]
 }
