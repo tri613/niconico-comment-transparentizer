@@ -4,5 +4,5 @@ const package = require('./package.json');
 const name = `${package.name}-${package.version}`;
 
 execSync(`cp -r ./src ./${name}`);
-execSync(`zip ./${name}.zip ./${name}/*`);
+execSync(`zip -r ${name}.zip ./${name}`);
 exec(`rm -rf ./${name}`);
