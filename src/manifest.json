@@ -3,7 +3,7 @@
   "name": "Niconico comment transparentizer",
   "short_name": "niconico-transparentizer",
   "description": "Make niconico douga comments transparent 👻",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"

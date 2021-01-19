@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/tri613/niconico-comment-transparentizer/compare/v2.0.0...v2.0.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* fix zip script ([31f9a49](https://github.com/tri613/niconico-comment-transparentizer/commit/31f9a494c62790d7b65734bd48799d20b1e18b15))
+
 ## [2.0.0](https://github.com/tri613/niconico-comment-transparentizer/compare/v1.1.4...v2.0.0) (2021-01-01)
 
 
