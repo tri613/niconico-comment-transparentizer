@@ -13,5 +13,10 @@
     "prettier": "prettier ./src -w",
     "zip": "node ./pack.js",
     "release": "standard-version"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "yarn prettier"
+    }
   }
 }
